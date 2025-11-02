@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img
+            src="../img/pageHeaderLogoImage_en.png"
+            alt="logo"
+            class="logo1"
+          />
+        </a>
+      </div>
+      <div class="nav-links">
+        <ul>
+            <li class="home-icon">
+                <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li class="about">
+                <a href="#">about ▾</a>
+            <ul class="about-menu">
+              <li><a href="../About/About.html">About the Journal</a></li>
+              <li>
+                <a href="../Privacy Statement/Privacy-Statement.html"
+                  >Privacy Statement</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="curent"><a href="../current/current.html">curent</a></li>
+          <li class="archived">
+            <a href="../Archives/Archives.html">archived</a>
+          </li>
+          <li class="guidelines">
+            <a href="../index.html">guidelines ▾</a>
+            <ul class="guidelines-menu">
+              <li><a href="../For Authors/For Authors.html">for authors</a></li>
+              <li><a href="#">for reviewers</a></li>
+              <li><a href="#">for editors</a></li>
+              <li><a href="#">publication process</a></li>
+              <li><a href="#">technical support</a></li>
+              <li><a href="#">publication ethics</a></li>
+              <li><a href="#">article processing procedure</a></li>
+              <li>
+                <a href="#">article processing charges (APC) information</a>
+              </li>
+              <li>
+                <a href="#">how to use grammarly - an useful grammar checker</a>
+              </li>
+            </ul>
+          </li>
+          <li class="editorial-board"><a href="#">editorial board</a></li>
+          <li class="waiting-to-publish"><a href="#">waiting to publish</a></li>
+          <li class="contact"><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="language">
+          <a href="#" class="icon"><i class="fa-solid fa-globe"></i></a>
+          <ul class="language-menu">
+            <li><a href="#">English</a></li>
+            <li><a href="#">Vietnam</a></li>
+          </ul>
+        </div>
+
+        <a href="#" class="icon"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+        <a href="../Register/Register.html" class="btn">Register</a>
+        <a href="./Login.html" class="btn">Login</a>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <p>Login</p>
+        </div>
+      </div>
+    </div>
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a> /
+      <span>Login</span>
+    </div>
+    <div class="login-container">
+      <form class="login-form">
+        <h2>Login</h2>
+
+        <div class="form-group">
+          <label for="username">Username or Email</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <a href="#" class="forgot-password">Forgot your password?</a>
+
+        <div class="form-check">
+          <input type="checkbox" id="keep-logged-in" checked />
+          <label for="keep-logged-in">Keep me logged in</label>
+        </div>
+
+        <button type="submit" class="btn-login">LOGIN</button>
+        <button
+          type="button"
+          class="btn-register"
+          onclick="window.location.href='../Register/Register.html'"
+        >
+          REGISTER
+        </button>
+      </form>
+    </div>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section footer-logo">
+          <h2>Vietnam Journal of Agricultural Sciences</h2>
+          <p>Vietnam National University of Agriculture</p>
+        </div>
+
+        <div class="footer-section contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Ngo Xuan Quang street, Gia Lam commune, Hanoi city</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+84 24 62617714</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">✉️</span>
+            <span>vjas@vnua.edu.vn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
